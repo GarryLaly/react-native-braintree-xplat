@@ -8,7 +8,7 @@ An effort to merge react-native-braintree and react-native-braintree-android
 
 For RN >= 60, simply:
 
-- run `npm install https://github.com/wkoutre/react-native-braintree-xplat.git`
+- run `npm install https://github.com/GarryLaly/react-native-braintree-xplat.git`
 - run `cd ios && pod install && cd ..`
 
 For RN <= 59:
@@ -19,7 +19,7 @@ You can use the React Native CLI to add native dependencies automatically:
 
 or do it manually as described below:
 
-1. Run `npm install https://github.com/wkoutre/react-native-braintree-xplat.git --save`
+1. Run `npm install https://github.com/GarryLaly/react-native-braintree-xplat.git --save`
 2. Open your project in XCode, right click on `Libraries` and click `Add Files to "Your Project Name"` Look under `node_modules/react-native-braintree-xplat` and add `RCTBraintree.xcodeproj`.
 3. Add `libRCTBraintree.a` to `Build Phases -> Link Binary With Libraries`
 4. Done!
